@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+  #micropost_content {
+    background-color: yellow;
+  }
