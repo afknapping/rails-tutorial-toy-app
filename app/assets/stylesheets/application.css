@@ -14,6 +14,7 @@
  *= require_self
  */
 
-  #micropost_content {
-    background-color: yellow;
-  }
+#micropost_content { background-color: yellow;  }
+
+#micropost_content:valid { background-color: lightgreen;  }
+#micropost_content:invalid { background-color: red;  }

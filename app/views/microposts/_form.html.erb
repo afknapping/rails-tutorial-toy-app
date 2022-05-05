@@ -13,12 +13,13 @@
 
   <div>
     <%= form.label :content, style: "display: block" %>
-    <%= form.text_area :content %>
+    <%= form.text_area :content, maxlength: 140, minlength: 5 %>
   </div>
 
   <div>
     <%= form.label :user_id, style: "display: block" %>
     <%= form.number_field :user_id %>
+    <div class="message">a message</div>
   </div>
 
   <div>
